@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/home/main",
+    "pages/search/main",
+    "pages/collect/main",
+    "pages/detail/main",
+    "pages/item/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#333",
+    "borderStyle": "white",
+
+    "list": [{
+      "text": "热门推荐",
+      "pagePath": "pages/home/main",
+      "iconPath": "static/tabs/hot.png",
+      "selectedIconPath": "static/tabs/hot_active.png"
+    }, {
+      "text": "搜一搜",
+      "pagePath": "pages/search/main",
+      "iconPath": "static/tabs/soso.png",
+      "selectedIconPath": "static/tabs/soso_active.png"
+    }, {
+      "text": "收藏夹",
+      "pagePath": "pages/collect/main",
+      "iconPath": "static/tabs/sc.png",
+      "selectedIconPath": "static/tabs/sc_active.png"
+    }]
+  }
+}
